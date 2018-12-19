@@ -3,6 +3,32 @@ export const COSMIC_THEME = {
   base: 'default',
   variables: {
 
+    statusTicket: {
+      bg: '#3d3780',
+      textColor: '#ffffff',
+      axisLineColor: '#a1a1e5',
+      splitLineColor: '#342e73',
+      areaOpacity: '1',
+
+      axisFontSize: '16',
+      axisTextColor: '#a1a1e5',
+
+      // first bar
+      firstLineGradFrom: '#0a49d7',
+      firstLineGradTo: '#0a49d7d6',
+      firstLineShadow: 'rgba(14, 16, 48, 0.4)',
+
+      // second bar
+      secondLineGradFrom: '#e9ec17',
+      secondLineGradTo: '#c4c71a',
+      secondLineShadow: 'rgba(14, 16, 48, 0.4)',
+
+      // third bar
+      thirdLineGradFrom: '#3de259',
+      thirdLineGradTo: '#13ff3b',
+      thirdLineShadow: 'rgba(14, 16, 48, 0.4)',
+    },
+
     temperature: [
       '#2ec7fe',
       '#31ffad',
